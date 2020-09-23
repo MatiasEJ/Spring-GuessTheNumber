@@ -1,0 +1,12 @@
+<thlogic>
+	<attr sel="#headId"
+	      th:replace="~{fragments/head :: headFragment}"/>
+	<attr sel="#mainMessage"
+	      th:text="${__${T(academy.learnprogramming.util.AttributeNames).MAIN_MESSAGE}__}"/>
+	<attr sel="#playAgain"
+	      th:href="@{__${T(academy.learnprogramming.util.GameMappings).RESTART}__}"/>
+
+	<attr sel="#home"
+	      th:href="@{__${T(academy.learnprogramming.util.GameMappings).HOME}__}"/>
+
+</thlogic>

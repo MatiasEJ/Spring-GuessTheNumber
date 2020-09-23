@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head id="headId">
+	<meta charset="UTF-8">
+	<title>wat</title>
+</head>
+<body>
+
+<div align="center">
+	<h1>Welcome to the Number Game</h1>
+	<a id="play" th:text="Play" th:href="@{__${T(academy.learnprogramming.util.GameMappings).PLAY}__}">Click to play</a>
+	<!--/*/	<th:block th:insert="fragments/footer :: footerFragment"></th:block> /*/-->
+</div>
+
+
+</body>
+</html>

@@ -1,2 +1,2 @@
-# Spring-GuessTheNumber
-Spring Web App mini game with thymeleaf.
+# Spring-Masterclass
+Udemy Course Spring Masterclass. 
