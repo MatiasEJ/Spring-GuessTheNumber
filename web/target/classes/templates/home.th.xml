@@ -2,10 +2,20 @@
 	<attr sel="#headId"
 	      th:replace="~{fragments/head :: headFragment}"/>
 	<attr sel="#play"
-	      th:text="Play" th:href="@{__${T(academy.learnprogramming.util.GameMappings).PLAY}__}" />
+	       th:href="@{__${T(academy.learnprogramming.util.GameMappings).PLAY}__}" />
 	<attr sel="#game-title"
 	      th:text="#{game.title}" />
+	<attr sel="#play"
+	      th:text="#{game.play}" />
+
+
+
+
+
 	<attr sel="#footerId"
 	      th:replace="~{fragments/footer :: footerFragment}" />
+
+
+
 
 </thlogic>
