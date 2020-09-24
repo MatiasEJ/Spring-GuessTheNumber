@@ -23,7 +23,6 @@ public class GameController {
 
 	@GetMapping(GameMappings.PLAY)
 	public String play(Model model){
-		gameService.reset();
 		model.addAttribute(AttributeNames.MAIN_MESSAGE, gameService.getMainMessage());
 		model.addAttribute(AttributeNames.RESULT_MESSAGE, gameService.getResultMessage());
 		log.info("Model = {}", model);

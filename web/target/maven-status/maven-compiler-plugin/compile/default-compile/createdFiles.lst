@@ -2,6 +2,7 @@ academy\learnprogramming\GameService.class
 academy\learnprogramming\config\WebConfig.class
 academy\learnprogramming\GameServiceImpl.class
 academy\learnprogramming\WebMain.class
+academy\learnprogramming\interceptor\RequestInterceptor.class
 academy\learnprogramming\util\GameMappings.class
 academy\learnprogramming\controller\GameController.class
 academy\learnprogramming\util\thymeleaf\DecoupleLogicSetup.class
