@@ -2,14 +2,17 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head id="headId">
 	<meta charset="UTF-8">
-	<title>wat</title>
+	<title>Guess the Number Game</title>
 </head>
 <body>
 
 <div align="center">
-	<h1>Welcome to the Number Game</h1>
+	<h1 id="game-title">Welcome to the Number Game</h1>
 	<a id="play" th:text="Play" th:href="@{__${T(academy.learnprogramming.util.GameMappings).PLAY}__}">Click to play</a>
-	<!--/*/	<th:block th:insert="fragments/footer :: footerFragment"></th:block> /*/-->
+
+	<footer id="footerId"></footer>
+
+
 </div>
 
 
