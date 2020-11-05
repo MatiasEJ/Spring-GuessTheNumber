@@ -25,7 +25,7 @@ public class GameController {
 	public String play(Model model){
 		model.addAttribute(AttributeNames.MAIN_MESSAGE, gameService.getMainMessage());
 		model.addAttribute(AttributeNames.RESULT_MESSAGE, gameService.getResultMessage());
-		log.info("Model = {}", model);
+		// log.info("Model = {}", model);
 		if(gameService.isGameOver()){
 			return ViewNames.GAME_OVER;
 		}
@@ -36,7 +36,7 @@ public class GameController {
 
 	@PostMapping(GameMappings.PLAY)
 	public String processMessage(@RequestParam int guess){
-		log.info("guess = {}", guess);
+		// log.info("guess = {}", guess);
 		gameService.checkGuess(guess);
 		return GameMappings.REDIRECT_PLAY;
 	}
